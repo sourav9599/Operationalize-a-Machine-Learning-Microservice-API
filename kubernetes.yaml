@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+   name: mlmicroserviceapi-pod
+spec:
+   containers:
+   - name: redis-container01
+     image: souravcoder99/mlapi:latest
+     ports:
+     - containerPort: 8080

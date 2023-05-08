@@ -1,0 +1,14 @@
+Port: 8080
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
+
+# kubernetes output
+Error from server (AlreadyExists): error when creating "kubernetes.yaml": pods "mlmicroserviceapi-pod" already exists
+NAME                    READY   STATUS    RESTARTS   AGE
+mlmicroserviceapi-pod   1/1     Running   0          2m13s
+Forwarding from 127.0.0.1:8080 -> 8080
+Forwarding from [::1]:8080 -> 8080
+Handling connection for 8080
